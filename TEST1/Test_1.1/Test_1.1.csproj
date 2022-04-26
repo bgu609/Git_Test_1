@@ -100,8 +100,6 @@
       <Name>Test_Util_1</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
+  <Import Project="..\..\..\Git_Test_2\TEST2\Test_ShareProject_2\Test_ShareProject_2.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

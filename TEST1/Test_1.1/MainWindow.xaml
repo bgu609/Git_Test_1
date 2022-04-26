@@ -8,7 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Viewbox>
-            <TextBlock x:Name="View_Text"/>
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="View_Text"/>
+                <TextBlock x:Name="View_ShareText"/>
+            </StackPanel>
         </Viewbox>
     </Grid>
 </Window>
