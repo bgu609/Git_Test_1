@@ -95,6 +95,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Git_Test_2\TEST2\Test_Module_2.1\Test_Module_2.1.csproj">
+      <Project>{5c16002d-b058-4aa5-9129-7fa693452215}</Project>
+      <Name>Test_Module_2.1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Test_Module_1.1\Test_Module_1.1.csproj">
       <Project>{e0ddccc6-59cf-4636-82e7-47a4f37fd6d4}</Project>
       <Name>Test_Module_1.1</Name>
